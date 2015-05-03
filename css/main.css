@@ -1,0 +1,50 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+* {
+  border: 1px solid green;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  text-align: left;
+  background: hsla(0,10%,20%,.5);
+  overflow: hidden;
+}
+
+
+header img {
+  width: 20%;
+  float: left;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 40px;
+  margin: 55px 0 0 22%;
+}
+
+header p {
+  display: inline-block;
+  margin: 0 0 0 10%;
+  clear: both;
+}
+
+header nav {
+  float: right;
+  margin: 23px 0 23px 0;
+  width: 25%;
+  display: inline-block;
+}
+
+header nav a {
+  padding: 23px 11px 25px 11px;
+  margin: 0;
+  text-decoration: none;
+  color: hsla(0,20%,30%,1);
+  border-right: 1px solid black;
+}
